@@ -1,7 +1,6 @@
 package com.pessoal.courseCoder;
 
-import com.pessoal.courseCoder.Data.AreaCircunferencia;
-import org.junit.jupiter.api.Test;
+import com.pessoal.courseCoder.data.AreaCircunferencia;
 
 public class AreaCircunferenciaTest {
     public static void main(String[] args) {
