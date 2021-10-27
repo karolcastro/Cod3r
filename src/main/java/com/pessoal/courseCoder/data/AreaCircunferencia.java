@@ -1,4 +1,4 @@
-package com.pessoal.courseCoder.Data;
+package com.pessoal.courseCoder.data;
 
 public class AreaCircunferencia {
 

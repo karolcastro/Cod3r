@@ -1,6 +1,6 @@
 package com.pessoal.courseCoder;
 
-import com.pessoal.courseCoder.Data.Data;
+import com.pessoal.courseCoder.data.Data;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
