@@ -1,0 +1,30 @@
+{
+  "attributes": [
+    [
+      {
+        "status": ["OK","damaged","not_supported","not_identified"]
+      }
+    ],
+    [
+      {
+        "damaged": ["by_meli", "by_seller", "by_carrier"]
+      }
+    ],
+    [
+      {
+        "not_supported": ["dimensions_exceeds", "expiration_problem","package_problem","package_problem","flammable", "regulation_problem",
+          "pdd_damaged", "pdd_fake_product", "pdd_incomplete", "pdd_not_working","return_problem","other"]
+      }
+    ] ,
+    [
+      {
+        "return_problem": ["open_box", "missing", "misused", "blocked", "blocked", "return_problem_not_paid", "return_problem_paid"]
+      }
+    ],
+    [
+      {
+        "not_identified": ["multiple_identifier", "empty_identifier", "multiple_sku", "invalid_identifier"]
+      }
+    ]
+  ]
+}
