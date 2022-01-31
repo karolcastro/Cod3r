@@ -3,6 +3,10 @@ package com.pessoal.courseCoder.oo.heranca;
 public class Heroi extends Jogador {
 
 
+    public Heroi(int x, int y) {
+        super(x, y);
+    }
+
     boolean atacar(Jogador oponente){
 
          boolean ataque1 = super.atacar(oponente);
