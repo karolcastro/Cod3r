@@ -1,4 +1,8 @@
-package com.pessoal.courseCoder.oo.heranca;
+package com.pessoal.courseCoder.oo.teste;
+
+import com.pessoal.courseCoder.oo.heranca.Direcao;
+import com.pessoal.courseCoder.oo.heranca.Heroi;
+import com.pessoal.courseCoder.oo.heranca.Monstro;
 
 public class Jogo {
     public static void main(String[] args) {
