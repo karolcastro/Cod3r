@@ -16,16 +16,22 @@ public class CarroTeste {
         carro1.acelerar();
         System.out.println(carro1);
 
-        Carro carro2 = new Ferrari(400);
+        System.out.println();
+        Ferrari carro2 = new Ferrari(400);
+        carro2.ligarTurbo();
+        carro2.ligarAr();
+        System.out.println(carro2);
 
         carro2.acelerar();
+        carro2.frear();
         System.out.println();
         System.out.println(carro2);
 
         carro2.acelerar();
+
         System.out.println(carro2);
 
-        carro2.frear();
+
         System.out.println(carro2);
 
 
