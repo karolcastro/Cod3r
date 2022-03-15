@@ -1,6 +1,6 @@
 package com.pessoal.courseCoder.oo.polimorfismo;
 
-public class Comida {
+public abstract class Comida {
 
     private double peso;
 
@@ -9,6 +9,7 @@ public class Comida {
     }
 
     public double getPeso() {
+
         return peso;
     }
 
