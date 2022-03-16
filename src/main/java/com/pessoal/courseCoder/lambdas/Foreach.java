@@ -15,5 +15,8 @@ public class Foreach {
         System.out.println("\nLambda #01....");
         aprovados.forEach(nome -> System.out.println(nome + "!!!!"));
 
+        System.out.println("\nMethod Reference");
+        aprovados.forEach(System.out::println);
+
     }
 }
