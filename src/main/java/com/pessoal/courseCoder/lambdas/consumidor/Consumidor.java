@@ -22,7 +22,7 @@ public class Consumidor {
 
         List<Produto> lista1 = Arrays.asList(prod1, prod2, prod3, prod4, prod5);
         lista1.forEach(imprimir);
-        lista1.forEach(p -> System.out.println(p.preco));
-        lista1.forEach(System.out::println);
+        lista1.forEach(p -> System.out.println(p.preco));// lambda
+        lista1.forEach(System.out::println);// method reference
     }
 }
