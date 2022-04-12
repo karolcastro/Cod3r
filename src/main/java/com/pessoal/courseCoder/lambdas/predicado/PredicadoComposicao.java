@@ -1,4 +1,4 @@
-package com.pessoal.courseCoder.lambdas;
+package com.pessoal.courseCoder.lambdas.predicado;
 
 import java.util.function.Predicate;
 
